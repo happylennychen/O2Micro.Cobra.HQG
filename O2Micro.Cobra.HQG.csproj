@@ -64,8 +64,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="xml y\DeviceDescriptor.xml" />
-    <Content Include="xml y\ExtensionDescriptor.xml" />
+    <Content Include="Two Plus xml y\DeviceDescriptor.xml" />
+    <Content Include="Two Plus xml y\ExtensionDescriptor.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="OZ10892 xml y\DeviceDescriptor.xml" />
+    <Content Include="OZ10892 xml y\ExtensionDescriptor.xml" />
+    <Content Include="OZ1C82 xml y\DeviceDescriptor.xml" />
+    <Content Include="OZ1C82 xml y\ExtensionDescriptor.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
